@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E4E9F2;
+  font-family: "Raleway", sans-serif;
+}
+
+.card {
+  width: 30em;
+  margin: 2em auto 0;
+  text-align: center;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  border-radius: 0.3em;
+}
+.card .btn {
+  border-radius: 0 0 0.3em 0.3em;
+  border-top: 0.1em solid #E4E9F2;
+}
+.card img {
+  border-radius: 0.3em 0.3em 0 0;
+}
+.card .card-image {
+  margin-bottom: 2em;
+}
+
+.dog-info {
+  margin-bottom: 1em;
+}
+.dog-info div {
+  display: inline-block;
+  margin: 0 10%;
+  text-align: left;
+}
+.dog-info div * {
+  margin: 0.3em 0;
+}
+.dog-info div span {
+  color: #7f8c8d;
+}
+.dog-info div p {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+
+.btn {
+  padding: 1.7em;
+  font-size: 1em;
+  border: none;
+  color: #7f8c8d;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: transparent;
+  transition: 0.3s all ease;
+}
+.btn-primary:hover {
+  transition: 0.3s all ease;
+  background-color: #FF7EA2;
+  color: #fff;
+}
